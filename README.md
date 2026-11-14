@@ -3,9 +3,6 @@
 Data behind the figures and tables of the manuscript (M. Urgo, W. Terkaj, Q. Qi, A. Nassehi, submitted to CIRP Annals)
 and of its Supplementary Material. The repository holds the generated event logs, the reconstructed logs of the decoders
 for the configurations discussed in the paper, the per-run, per-configuration result tables and the summary tables.
-The simulators, the training code and the trained networks are not part of this release.
-
-Repository: https://github.com/murgo-polimi/MANUPINN-CIRP27-STCO
 
 If you use these data, please cite the paper (see `CITATION.cff`). The reference datasets of the two lines (their
 master logs and low-fidelity logs, `*/reference_2021/`) are those of Terkaj et al., CIRP Annals 70 (2021) 361-364; please
