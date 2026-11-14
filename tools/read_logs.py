@@ -1,7 +1,7 @@
 """Readers for the event logs of the repository (no dependency on the experiment code; needs pandas).
 
     import read_logs as RL
-    ev  = RL.read_log('industrial_case/test_runs/run_000/21_HFM_log.txt')      # one row per event
+    ev  = RL.read_log('industrial_case/test_runs/run_000/21_HFM_log.txt.gz')   # one row per event (.gz read directly)
     tab = RL.event_table(ev)                                                   # items x (resource, enter/exit)
     cfg = RL.industrial_interfaces('industrial_case/lfm_catalog.csv', 'G15')   # sensed interfaces of G15
     lfm = RL.low_fidelity_log(ev, cfg)                                         # the low-fidelity log of G15

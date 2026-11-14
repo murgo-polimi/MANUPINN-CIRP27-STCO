@@ -19,7 +19,7 @@ their `id` (the LFM id used in the paper and in the file names of `reconstructio
 always sensed), `clusters` (the unobserved sections), the numbers of partially observed and hidden events and the
 `sensed_<interface>` flags.
 
-Logs: `test_runs/run_XXX/07_HFM_log.txt` (complete event log) with `params.json`; `val_runs/` the same for the first
+Logs: `test_runs/run_XXX/07_HFM_log.txt.gz` (complete event log, gzip-compressed) with `params.json`; `val_runs/` the same for the first
 50 validation runs. Reconstructions: `reconstructions/<pi_fno|hybrid|lp_max|lp_true>/run_XXX_lfm_<id>.txt.gz`,
 complete logs reconstructed from the low-fidelity log of configuration `<id>`, for the configurations discussed in
 Section 4.2 and Supplementary Table S2.

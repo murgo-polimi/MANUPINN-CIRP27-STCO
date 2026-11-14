@@ -1,8 +1,9 @@
 # File formats
 
-## Event logs (`*_HFM_log.txt`)
+## Event logs (`*_HFM_log.txt.gz`)
 
-Tab-separated text, header `id	time	property	value1	value2`, one line per event:
+All event logs (runs, reconstructions, noisy logs, reference datasets) are gzip-compressed (`.txt.gz`); `pandas.read_csv`
+and `tools/read_logs.py` read them directly, `gunzip` restores the plain text. Tab-separated text, header `id	time	property	value1	value2`, one line per event:
 
 | column | content |
 |---|---|
@@ -65,6 +66,13 @@ noise-tolerant saturation rule (Section 3.2) and `sigma` the noise level. Main c
 | `cap_feasible_<buffer>`, `cap_tie_<buffer>`, `cap_saturated_<buffer>` | diagnostics of the identification |
 | `share_checks_ok`, `all_kpis_ok` (industrial case) | share of KPI checks within tolerance and the all-checks flag |
 | `elastic_clusters` (noise files) | clusters decoded with the elastic relaxation of the LP |
+
+`metrics_full/` (both lines) holds the complete evaluation files from which the compact metrics files were derived, with
+the same file names but xz-compressed (`*.csv.xz`, read directly by `pandas.read_csv`; `unxz` restores the CSV). They
+have every column written by the evaluation (all KPI values of every method, further log-error measures such as
+`sigma_tot` and the bounds `D_LB`/`D_UB`, the WIP errors of the line portions, the identification diagnostics) and every
+method and ablation evaluated (assembly line: `op`, `op_K`, `op_Klog`, `hyb`, `lp_max`, `lp_true`), also those not reported
+in the paper.
 
 The tolerances (0.05 for machine shares and buffer full fractions, 0.5 parts for mean buffer occupancy, 10 % for WIP
 and 5 % for residence times of the portions) are those of Section 3.4 of the paper; for the assembly line the checks

@@ -1,5 +1,3 @@
-# raw evaluation files (large); archived separately, see README
-*/metrics_full/
 *.tmp
 *.tmp.txt
 .DS_Store

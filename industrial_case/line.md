@@ -24,7 +24,7 @@ Always sensed: B11|M23, B15|M21, B17|M21, B19|M23, M21|B18, M23|B20; the other 4
 dataset, `R<k>` the 1172 random ones stratified by sensor count, `G00` … `G40` the greedy sensor-removal path selected
 on validation runs (`G15`, `G17`, `G20` are the configurations discussed in the paper; G15 is drawn in Fig. 4).
 
-Logs: `test_runs/run_XXX/21_HFM_log.txt` (100 TEST runs), `out_of_range_runs/run_XXX/` (30 runs with every capacity
+Logs: `test_runs/run_XXX/21_HFM_log.txt.gz` (100 TEST runs, gzip-compressed), `out_of_range_runs/run_XXX/` (30 runs with every capacity
 uniform over 1 … maximum, Section 5.3). Reconstructions: `reconstructions/<method>/run_XXX_<G15|G17|G20>.txt.gz` for
 the first 30 TEST runs. Noise study: `noise_study/noisy_logs/sigma_<s>/run_XXX_21_HFM_log.txt.gz` are the TEST logs
 with Gaussian timestamp noise of standard deviation `<s>` s on every interface (the noisy low-fidelity log of a

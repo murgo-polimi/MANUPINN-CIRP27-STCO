@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use these data, please cite the paper below."
 title: "Data for: Physics-informed event-log reconstruction and parameter identification in partially observed production lines"
 type: dataset
+repository-code: "https://github.com/murgo-polimi/MANUPINN-CIRP27-STCO"
 license: CC-BY-4.0
 authors:
   - family-names: Urgo
@@ -32,3 +33,24 @@ preferred-citation:
     - family-names: Nassehi
       given-names: Aydin
   notes: "[TO CHECK: volume, pages and DOI once published]"
+references:
+  - type: article
+    title: "Multi-scale modelling of manufacturing systems using ontologies and delta-lenses"
+    journal: "CIRP Annals"
+    volume: 70
+    issue: 1
+    start: 361
+    end: 364
+    year: 2021
+    notes: "Source of the reference datasets in assembly_line/reference_2021 and industrial_case/reference_2021"
+    authors:
+      - family-names: Terkaj
+        given-names: Walter
+      - family-names: Qi
+        given-names: Qunfen
+      - family-names: Urgo
+        given-names: Marcello
+      - family-names: Scott
+        given-names: Paul J.
+      - family-names: Jiang
+        given-names: Xiangqian

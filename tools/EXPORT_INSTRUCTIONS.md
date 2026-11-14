@@ -17,7 +17,7 @@ and are exported by `tools/export_from_box.py`. **Nothing in the experiment fold
    30 runs). Expected time: well under an hour per case.
 3. Report sizes: `du -sh */test_runs */val_runs */out_of_range_runs */reconstructions */metrics */metrics_full
    industrial_case/noise_study`, the number of files, and any step that failed (do not patch around a failure; report
-   the traceback). `metrics_full/` is excluded from git (`.gitignore`) and is meant for a separate archive (Zenodo) if
+   the traceback). `metrics_full/` was later recompressed to `.csv.xz` and is now part of the repository (no longer in `.gitignore`); it was first meant for a separate archive (Zenodo) if
    the authors decide to publish the raw evaluation files.
 4. Copy the filled repository back to the Mac folder (`rsync -a --exclude metrics_full`), and the E7 tables
    (`sensor_select_val.csv/.md`, `val_per_cfg.csv`) that the script places in `assembly_line/summary_tables/`.
