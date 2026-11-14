@@ -1,0 +1,165 @@
+method,n_optional,best_lfm_all_kpis_ok,mean_share_checks_ok,mean_absD_tot
+Hybrid (PINN capacities -> LP),0,0.0,0.85,8.81
+Hybrid (PINN capacities -> LP),1,0.01,0.865,7.79
+Hybrid (PINN capacities -> LP),2,0.03,0.882,6.82
+Hybrid (PINN capacities -> LP),3,0.03,0.889,6.36
+Hybrid (PINN capacities -> LP),4,0.06,0.904,5.39
+Hybrid (PINN capacities -> LP),5,0.09,0.908,5.3
+Hybrid (PINN capacities -> LP),6,0.09,0.914,4.98
+Hybrid (PINN capacities -> LP),7,0.13,0.924,4.29
+Hybrid (PINN capacities -> LP),8,0.17,0.928,3.77
+Hybrid (PINN capacities -> LP),9,0.23,0.931,3.77
+Hybrid (PINN capacities -> LP),10,0.34,0.938,3.01
+Hybrid (PINN capacities -> LP),11,0.43,0.947,2.87
+Hybrid (PINN capacities -> LP),12,0.52,0.942,2.93
+Hybrid (PINN capacities -> LP),13,0.54,0.954,2.49
+Hybrid (PINN capacities -> LP),14,0.7,0.951,2.25
+Hybrid (PINN capacities -> LP),15,0.78,0.965,1.71
+Hybrid (PINN capacities -> LP),16,0.82,0.957,1.96
+Hybrid (PINN capacities -> LP),17,0.9,0.967,1.77
+Hybrid (PINN capacities -> LP),18,0.92,0.961,1.67
+Hybrid (PINN capacities -> LP),19,0.94,0.973,1.22
+Hybrid (PINN capacities -> LP),20,0.98,0.963,1.52
+Hybrid (PINN capacities -> LP),21,0.98,0.978,1.07
+Hybrid (PINN capacities -> LP),22,0.98,0.968,1.28
+Hybrid (PINN capacities -> LP),23,0.98,0.982,0.87
+Hybrid (PINN capacities -> LP),24,0.98,0.971,1.24
+Hybrid (PINN capacities -> LP),25,0.98,0.984,0.67
+Hybrid (PINN capacities -> LP),26,0.98,0.976,1.03
+Hybrid (PINN capacities -> LP),27,1.0,0.988,0.59
+Hybrid (PINN capacities -> LP),28,1.0,0.982,0.8
+Hybrid (PINN capacities -> LP),29,1.0,0.991,0.32
+Hybrid (PINN capacities -> LP),30,1.0,0.986,0.6
+Hybrid (PINN capacities -> LP),31,1.0,0.993,0.26
+Hybrid (PINN capacities -> LP),32,1.0,0.99,0.38
+Hybrid (PINN capacities -> LP),33,1.0,0.995,0.16
+Hybrid (PINN capacities -> LP),34,1.0,0.992,0.3
+Hybrid (PINN capacities -> LP),35,1.0,0.998,0.06
+Hybrid (PINN capacities -> LP),36,1.0,0.995,0.27
+Hybrid (PINN capacities -> LP),37,1.0,0.998,0.03
+Hybrid (PINN capacities -> LP),38,1.0,0.998,0.07
+Hybrid (PINN capacities -> LP),39,1.0,1.0,0.01
+Hybrid (PINN capacities -> LP),40,1.0,1.0,0.0
+PINN (operator + identified capacities),0,0.0,0.651,9.69
+PINN (operator + identified capacities),1,0.0,0.666,9.12
+PINN (operator + identified capacities),2,0.0,0.682,8.61
+PINN (operator + identified capacities),3,0.0,0.693,8.24
+PINN (operator + identified capacities),4,0.0,0.706,7.7
+PINN (operator + identified capacities),5,0.0,0.715,7.54
+PINN (operator + identified capacities),6,0.0,0.722,7.38
+PINN (operator + identified capacities),7,0.0,0.735,6.87
+PINN (operator + identified capacities),8,0.0,0.743,6.38
+PINN (operator + identified capacities),9,0.0,0.749,6.41
+PINN (operator + identified capacities),10,0.0,0.762,5.64
+PINN (operator + identified capacities),11,0.0,0.773,5.57
+PINN (operator + identified capacities),12,0.0,0.779,5.38
+PINN (operator + identified capacities),13,0.0,0.8,5.07
+PINN (operator + identified capacities),14,0.0,0.801,4.64
+PINN (operator + identified capacities),15,0.0,0.821,4.38
+PINN (operator + identified capacities),16,0.0,0.817,4.25
+PINN (operator + identified capacities),17,0.0,0.832,4.29
+PINN (operator + identified capacities),18,0.0,0.835,3.82
+PINN (operator + identified capacities),19,0.01,0.853,3.69
+PINN (operator + identified capacities),20,0.01,0.844,3.56
+PINN (operator + identified capacities),21,0.02,0.872,3.29
+PINN (operator + identified capacities),22,0.05,0.859,3.2
+PINN (operator + identified capacities),23,0.05,0.891,2.91
+PINN (operator + identified capacities),24,0.09,0.877,2.9
+PINN (operator + identified capacities),25,0.03,0.902,2.5
+PINN (operator + identified capacities),26,0.16,0.892,2.52
+PINN (operator + identified capacities),27,0.07,0.917,2.24
+PINN (operator + identified capacities),28,0.22,0.912,2.11
+PINN (operator + identified capacities),29,0.08,0.937,1.73
+PINN (operator + identified capacities),30,0.24,0.923,1.81
+PINN (operator + identified capacities),31,0.14,0.949,1.44
+PINN (operator + identified capacities),32,0.25,0.939,1.36
+PINN (operator + identified capacities),33,0.34,0.963,1.09
+PINN (operator + identified capacities),34,0.33,0.965,1.0
+PINN (operator + identified capacities),35,0.44,0.976,0.77
+PINN (operator + identified capacities),36,0.51,0.973,0.76
+PINN (operator + identified capacities),37,0.66,0.985,0.46
+PINN (operator + identified capacities),38,0.97,0.988,0.34
+PINN (operator + identified capacities),39,1.0,0.995,0.15
+PINN (operator + identified capacities),40,1.0,1.0,0.0
+"Paper LP, true capacities (reference)",0,0.19,0.906,3.57
+"Paper LP, true capacities (reference)",1,0.24,0.915,3.01
+"Paper LP, true capacities (reference)",2,0.29,0.926,2.5
+"Paper LP, true capacities (reference)",3,0.36,0.929,2.36
+"Paper LP, true capacities (reference)",4,0.39,0.938,1.82
+"Paper LP, true capacities (reference)",5,0.46,0.941,1.82
+"Paper LP, true capacities (reference)",6,0.49,0.945,1.73
+"Paper LP, true capacities (reference)",7,0.52,0.952,1.38
+"Paper LP, true capacities (reference)",8,0.56,0.955,1.11
+"Paper LP, true capacities (reference)",9,0.6,0.955,1.26
+"Paper LP, true capacities (reference)",10,0.66,0.96,0.8
+"Paper LP, true capacities (reference)",11,0.68,0.965,0.82
+"Paper LP, true capacities (reference)",12,0.68,0.963,0.79
+"Paper LP, true capacities (reference)",13,0.71,0.97,0.67
+"Paper LP, true capacities (reference)",14,0.76,0.967,0.65
+"Paper LP, true capacities (reference)",15,0.79,0.975,0.52
+"Paper LP, true capacities (reference)",16,0.84,0.971,0.52
+"Paper LP, true capacities (reference)",17,0.9,0.979,0.45
+"Paper LP, true capacities (reference)",18,0.92,0.972,0.52
+"Paper LP, true capacities (reference)",19,0.94,0.982,0.34
+"Paper LP, true capacities (reference)",20,0.98,0.974,0.45
+"Paper LP, true capacities (reference)",21,0.98,0.985,0.27
+"Paper LP, true capacities (reference)",22,0.98,0.977,0.38
+"Paper LP, true capacities (reference)",23,0.98,0.988,0.22
+"Paper LP, true capacities (reference)",24,0.98,0.98,0.36
+"Paper LP, true capacities (reference)",25,0.98,0.989,0.21
+"Paper LP, true capacities (reference)",26,0.98,0.983,0.3
+"Paper LP, true capacities (reference)",27,1.0,0.992,0.16
+"Paper LP, true capacities (reference)",28,1.0,0.987,0.23
+"Paper LP, true capacities (reference)",29,1.0,0.993,0.12
+"Paper LP, true capacities (reference)",30,1.0,0.99,0.17
+"Paper LP, true capacities (reference)",31,1.0,0.995,0.09
+"Paper LP, true capacities (reference)",32,1.0,0.992,0.13
+"Paper LP, true capacities (reference)",33,1.0,0.996,0.07
+"Paper LP, true capacities (reference)",34,1.0,0.994,0.08
+"Paper LP, true capacities (reference)",35,1.0,0.998,0.04
+"Paper LP, true capacities (reference)",36,1.0,0.997,0.05
+"Paper LP, true capacities (reference)",37,1.0,0.999,0.03
+"Paper LP, true capacities (reference)",38,1.0,0.999,0.02
+"Paper LP, true capacities (reference)",39,1.0,1.0,0.01
+"Paper LP, true capacities (reference)",40,1.0,1.0,0.0
+"Paper LP, max capacities",0,0.0,0.821,12.9
+"Paper LP, max capacities",1,0.0,0.82,11.58
+"Paper LP, max capacities",2,0.0,0.818,10.48
+"Paper LP, max capacities",3,0.0,0.822,9.78
+"Paper LP, max capacities",4,0.0,0.826,8.62
+"Paper LP, max capacities",5,0.0,0.825,8.56
+"Paper LP, max capacities",6,0.0,0.826,8.32
+"Paper LP, max capacities",7,0.0,0.824,7.51
+"Paper LP, max capacities",8,0.0,0.83,6.69
+"Paper LP, max capacities",9,0.0,0.826,6.84
+"Paper LP, max capacities",10,0.0,0.834,5.55
+"Paper LP, max capacities",11,0.0,0.838,5.48
+"Paper LP, max capacities",12,0.0,0.838,5.33
+"Paper LP, max capacities",13,0.0,0.844,4.87
+"Paper LP, max capacities",14,0.0,0.84,4.39
+"Paper LP, max capacities",15,0.0,0.845,4.29
+"Paper LP, max capacities",16,0.0,0.844,3.97
+"Paper LP, max capacities",17,0.0,0.849,4.19
+"Paper LP, max capacities",18,0.0,0.845,3.58
+"Paper LP, max capacities",19,0.0,0.852,3.25
+"Paper LP, max capacities",20,0.0,0.846,3.23
+"Paper LP, max capacities",21,0.0,0.858,2.85
+"Paper LP, max capacities",22,0.0,0.85,2.99
+"Paper LP, max capacities",23,0.0,0.861,2.63
+"Paper LP, max capacities",24,0.0,0.853,2.74
+"Paper LP, max capacities",25,0.0,0.86,2.24
+"Paper LP, max capacities",26,0.0,0.856,2.47
+"Paper LP, max capacities",27,0.0,0.866,1.82
+"Paper LP, max capacities",28,0.0,0.854,2.18
+"Paper LP, max capacities",29,0.0,0.867,1.48
+"Paper LP, max capacities",30,0.0,0.86,1.78
+"Paper LP, max capacities",31,0.0,0.872,1.18
+"Paper LP, max capacities",32,0.0,0.864,1.33
+"Paper LP, max capacities",33,0.0,0.873,0.95
+"Paper LP, max capacities",34,0.0,0.875,0.89
+"Paper LP, max capacities",35,0.0,0.878,0.61
+"Paper LP, max capacities",36,0.0,0.878,0.69
+"Paper LP, max capacities",37,0.0,0.879,0.4
+"Paper LP, max capacities",38,0.0,0.881,0.29
+"Paper LP, max capacities",39,0.0,0.882,0.13
+"Paper LP, max capacities",40,0.0,0.884,0.0

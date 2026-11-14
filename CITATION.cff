@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the paper below."
+title: "Data for: Physics-informed event-log reconstruction and parameter identification in partially observed production lines"
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: Urgo
+    given-names: Marcello
+    orcid: "https://orcid.org/0000-0002-0341-9208"
+    affiliation: "Politecnico di Milano"
+  - family-names: Terkaj
+    given-names: Walter
+    affiliation: "STIIMA-CNR"
+  - family-names: Qi
+    given-names: Qunfen
+    affiliation: "University of Bristol"
+  - family-names: Nassehi
+    given-names: Aydin
+    affiliation: "University of Bristol"
+preferred-citation:
+  type: article
+  title: "Physics-informed event-log reconstruction and parameter identification in partially observed production lines"
+  journal: "CIRP Annals"
+  year: 2027
+  authors:
+    - family-names: Urgo
+      given-names: Marcello
+    - family-names: Terkaj
+      given-names: Walter
+    - family-names: Qi
+      given-names: Qunfen
+    - family-names: Nassehi
+      given-names: Aydin
+  notes: "[TO CHECK: volume, pages and DOI once published]"
