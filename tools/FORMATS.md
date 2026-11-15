@@ -49,11 +49,13 @@ the random ones), `source`, `bits` (46 characters, one per interface in the orde
 ## Metrics files (`metrics/*.csv.gz`, `noise_study/metrics/*/*.csv.gz`, `master_log/real.csv.gz`)
 
 One row per (run, configuration, method), plus one row per run with `method = truth` holding the KPI values of the
-complete log (`k_*` columns). Methods: `op` (PI-FNO log read with the identified capacities; `op_K` in the assembly-line
-files), `hyb` (hybrid: identified capacities → LP), `lp_max` (LP with maximum capacities), `lp_true` (LP with the true
-capacities), and the ablations `op_Klog` (capacities from the reconstructed log only) and, in the assembly-line files,
-`op` with capacities at the maximum. In the noise files `hyb_tol`, `occ_tol_lp` and `op_tol` are the variants with the
-noise-tolerant saturation rule (Section 3.2) and `sigma` the noise level. Main columns:
+complete log (`k_*` columns). Methods, with the names used in the paper: `op_K` = PI-FNO (the PI-FNO log read with
+the capacities identified by the inverse step); `hyb` = hybrid (identified capacities → LP); `lp_max` = LP-max (LP
+with the maximum capacities); `lp_true` = LP-true (LP with the true capacities); and two ablations of the PI-FNO log,
+`op` (read with the maximum capacities) and `op_Klog` (capacities from the reconstructed log only). In the noise files
+`hyb_tol`, `occ_tol_lp` and `op_tol` are the variants with the noise-tolerant saturation rule (Section 3.2 of the
+paper) and `sigma` the noise level; there `op` is the PI-FNO log read with the capacities of the exact rule. The raw
+summary tables keep the earlier name "PINN" for the PI-FNO. Main columns:
 
 | column | content |
 |---|---|
